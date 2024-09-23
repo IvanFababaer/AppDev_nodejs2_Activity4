@@ -1,0 +1,128 @@
+/* Global Styles */
+body {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: burlywood;
+    color: black;
+    margin: 0;
+    padding: 0;
+    text-align: justify;
+  }
+  
+  /* Header Styles */
+  header {
+    background-color: #492000;
+    color: white;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  header h1 {
+    margin: 0;
+  }
+  
+  nav ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  nav ul li {
+    display: inline;
+    margin-right: 15px;
+  }
+  
+  nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  /* Footer Styles */
+  footer {
+    background-color: #492000;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    margin-top: 50px;
+  }
+  
+  /* Main Content Styles */
+  main {
+    padding: 20px;
+    text-align: center;
+  }
+  
+  h2 {
+    color: #2b1700;
+  }
+  
+ 
+ /* Contact Form Styles */
+form {
+    max-width: 450px;
+    margin: 40px auto;
+    background-color: #fff;
+    padding: 30px; /* Padding inside the form to prevent elements from touching the edges */
+    border-radius: 10px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+    box-sizing: border-box; /* Ensures padding is included in width calculations */
+}
+
+/* Form input and textarea styles */
+form input,
+form textarea {
+    width: calc(100% - 20px); /* Reduced width to leave space for padding */
+    padding: 15px;
+    margin: 12px 0;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 16px;
+    transition: border 0.3s ease;
+    box-sizing: border-box; /* Ensures padding is included within the width */
+}
+
+form input:focus,
+form textarea:focus {
+    border-color: #007bff;
+    outline: none;
+}
+
+/* Form button styles */
+form button {
+    background-color: #7C4700;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    width: 100%; /* Full-width button */
+}
+
+form button:hover {
+    background-color: green;
+}
+
+/* Adjustments for smaller screens (responsive design) */
+@media (max-width: 600px) {
+    form {
+        padding: 20px;
+        margin: 20px auto;
+    }
+
+    form input,
+    form textarea {
+        padding: 12px;
+    }
+
+    form button {
+        padding: 12px 15px;
+    }
+}
+
+  
+  
+  
